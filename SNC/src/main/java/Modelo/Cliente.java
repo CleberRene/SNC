@@ -2,40 +2,40 @@ package Modelo;
 
 public class Cliente {
 
-    private String nomecliente;
-    private String numerobanco;
-    private String numeroagencia;
-    private String numeroconta;
+    private String nomeCliente;
+    private String numeroBanco;
+    private String numeroAgencia;
+    private String numeroConta;
 
     public String getNomecliente() {
-        return nomecliente;
+        return nomeCliente;
     }
 
     public void setNomecliente(String nomecliente) {
-        this.nomecliente = nomecliente;
+        this.nomeCliente = nomeCliente;
     }
 
     public String getNumerobanco() {
-        return numerobanco;
+        return numeroBanco;
     }
 
     public void setNumerobanco(String numerobanco) {
-        this.numerobanco = numerobanco;
+        this.numeroBanco = numeroBanco;
     }
 
     public String getNumeroagencia() {
-        return numeroagencia;
+        return numeroAgencia;
     }
 
     public void setNumeroagencia(String numeroagencia) {
-        this.numeroagencia = numeroagencia;
+        this.numeroAgencia = numeroAgencia;
     }
 
     public String getNumeroconta() {
-        return numeroconta;
+        return numeroConta;
     }
 
     public void setNumeroconta(String numeroconta) {
-        this.numeroconta = numeroconta;
+        this.numeroConta = numeroConta;
     }
 }
